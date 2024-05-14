@@ -25,6 +25,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Stylesheets -->
     <link href="assets/css/font-awesome-all.css" rel="stylesheet" />
@@ -58,30 +64,29 @@
   <body>
     <div class="boxed_wrapper ltr">
       <!-- preloader -->
-      <div class="loader-wrap">
+      <!-- <div class="loader-wrap">
         <div class="preloader">
           <div class="preloader-close">X</div>
           <div id="handle-preloader" class="handle-preloader">
             <div class="animation-preloader">
               <div class="spinner"></div>
               <div class="txt-loading">
-                <span data-text-preloader="P" class="letters-loading"> P </span>
-                <span data-text-preloader="S" class="letters-loading"> S </span>
-                <span data-text-preloader="L" class="letters-loading"> L </span>
+                <span data-text-preloader="P" class="letters-loading">
+                  POWER
+                </span>
+                <span data-text-preloader="" class="letters-loading"> </span>
+                <span data-text-preloader="S" class="letters-loading">
+                  SECURITY
+                </span>
                 <span data-text-preloader=" " class="letters-loading"> </span>
-                <span data-text-preloader="F" class="letters-loading"> F </span>
-                <span data-text-preloader="a" class="letters-loading"> a </span>
-                <span data-text-preloader="c" class="letters-loading"> c </span>
-                <span data-text-preloader="i" class="letters-loading"> i </span>
-                <span data-text-preloader="l" class="letters-loading"> l </span>
-                <span data-text-preloader="i" class="letters-loading"> i </span>
-                <span data-text-preloader="t" class="letters-loading"> t </span>
-                <span data-text-preloader="y" class="letters-loading"> y </span>
+                <span data-text-preloader="L" class="letters-loading">
+                  LINE
+                </span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- preloader end -->
 
       <!-- page-direction -->
@@ -125,7 +130,16 @@
                 style="background-image: url(assets/images/shape/shape-1.png)"
               ></div> -->
               <div class="menu-area">
-                <div class="logo-box">
+                <!-- <div class="logo-box">
+                  <figure class="logo">
+                    <a href="index.html"
+                      ><img
+                        src="assets/images/logo.png"
+                        alt="PSL Facility Services"
+                    /></a>
+                  </figure>
+                </div> -->
+                <div class="logo-box2">
                   <figure class="logo">
                     <a href="index.html"
                       ><img
@@ -135,21 +149,22 @@
                   </figure>
                 </div>
                 <!--Mobile Navigation Toggler-->
-                <div class="mobile-nav-toggler">
-                  <i class="icon-bar"></i>
-                  <i class="icon-bar"></i>
-                  <i class="icon-bar"></i>
-                </div>
-                <nav class="main-menu navbar-expand-md navbar-light clearfix">
-                  <div
-                    class="collapse navbar-collapse show clearfix"
-                    id="navbarSupportedContent"
-                  >
-                    <ul class="navigation clearfix">
-                      <!-- <li class="current dropdown"> -->
-                      <li>
-                        <a href="index.html">Inicio</a>
-                        <!-- <a href="index.html">Inicio</a>
+                <div>
+                  <div class="mobile-nav-toggler">
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                  </div>
+                  <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                    <div
+                      class="collapse navbar-collapse show clearfix"
+                      id="navbarSupportedContent"
+                    >
+                      <ul class="navigation clearfix">
+                        <!-- <li class="current dropdown"> -->
+                        <li>
+                          <a href="index.html">Inicio</a>
+                          <!-- <a href="index.html">Inicio</a>
                         <ul>
                           <li><a href="index-2.html">Home Page One</a></li>
                           <li><a href="index-3.html">Home Page Two</a></li>
@@ -170,42 +185,46 @@
                             </ul>
                           </li>
                         </ul> -->
-                      </li>
-                      <li><a href="nosotros.html">Nosotros</a></li>
-                      <li class="dropdown">
-                        <a href="#Servicios">Servicios</a>
-                        <ul>
-                          <li>
-                            <a href="seguridad-tactica.html"
-                              >Seguridad táctica</a
-                            >
-                          </li>
-                          <li>
-                            <a href="guardias-de-seguridad.html"
-                              >Guardias de seguridad</a
-                            >
-                          </li>
-                          <li>
-                            <a href="vigilancia-electronica.html"
-                              >Vigilancia electrónica</a
-                            >
-                          </li>
-                          <li>
-                            <a href="aseo-y-mantenimiento.html"
-                              >Aseo y mantenimiento</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="sistema-de-seguridad.html"
-                          >Sistemas de seguridad</a
-                        >
-                      </li>
-                      <!-- <li class="dropdown">
+                        </li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li class="dropdown">
+                          <a href="#Servicios">Seguridad</a>
+                          <ul>
+                            <li>
+                              <a href="seguridad-tactica.html"
+                                >Seguridad táctica</a
+                              >
+                            </li>
+                            <li>
+                              <a href="guardias-de-seguridad.html"
+                                >Guardias de seguridad</a
+                              >
+                            </li>
+                            <li>
+                              <a href="vigilancia-electronica.html"
+                                >Vigilancia electrónica</a
+                              >
+                            </li>
+                            <li>
+                              <a href="sistema-de-seguridad.html"
+                                >Sistemas de seguridad</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="aseo-y-mantenimiento.html"
+                            >Aseo y mantenimiento</a
+                          >
+                        </li>
+                        <li>
+                          <a href="contact.html">Contáctanos</a>
+                        </li>
+
+                        <!-- <li class="dropdown">
                         <a href="index-2.html">Beneficios</a>
                         <ul> -->
-                      <!-- <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="index-2.html">Team</a>
                             <ul>
                               <li><a href="team.html">Our Team 1</a></li>
@@ -224,11 +243,11 @@
                               </li>
                             </ul>
                           </li> -->
-                      <!-- <li><a href="faq.html">Sistema de seguridad</a></li>
+                        <!-- <li><a href="faq.html">Sistema de seguridad</a></li>
                           <li><a href="error.html">Clientes</a></li>
                         </ul>
                       </li> -->
-                      <!-- <li class="dropdown">
+                        <!-- <li class="dropdown">
                         <a href="index-2.html">Blog</a>
                         <ul>
                           <li><a href="blog.html">Blog Grid</a></li>
@@ -237,26 +256,22 @@
                         </ul>
                       </li> -->
 
-                      <li hidden>
-                        <a href="contact.html">Trabaja con nosotros</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
+                        <li hidden>
+                          <a href="contact.html">Trabaja con nosotros</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
               </div>
-              <div class="menu-right-content">
-                <!-- <div class="support-box">
+              <!-- <div class="menu-right-content"> -->
+              <!-- <div class="support-box">
                   <div class="icon-box gradient-color">
                     <i class="icon-2"></i>
                   </div>
                   <a href="tel:2395432170108">(239)-543-217-0108</a>
                 </div> -->
-                <div class="btn-box">
-                  <a href="contact.html" class="theme-btn btn-one"
-                    ><span>Contáctanos</span></a
-                  >
-                </div>
-              </div>
+              <!-- </div> -->
             </div>
           </div>
         </div>
@@ -286,11 +301,11 @@
                   </div>
                   <a href="tel:2395432170108">(239)-543-217-0108</a>
                 </div> -->
-                <div class="btn-box">
+                <!-- <div class="btn-box">
                   <a href="contact.html" class="theme-btn btn-one"
                     ><span>Contáctanos</span></a
                   >
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -357,7 +372,7 @@
       <div hidden><h1>Seguridad Táctica y Guardias</h1></div>
 
       <!-- banner-section -->
-      <section class="banner-section p_relative">
+      <!-- <section class="banner-section p_relative">
         <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
           <div class="slide-item p_relative">
             <div class="pattern-layer">
@@ -499,8 +514,26 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- banner-section end -->
+
+      <!-- BANNER SECTION -->
+
+      <section class="banner-full">
+        <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+          <h1>
+            <span style="font-weight: 400">SEGURIDAD</span>
+            <span>que evoluciona</span>.
+            <br />
+            <span style="color: white !important">Crimen que retrocede.</span>
+          </h1>
+        </div>
+        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+          <img src="assets/images/banner/seguridad-tactica.png" />
+        </div>
+      </section>
+
+      <!-- END OF BANNER SECTION -->
 
       <!-- feature-section -->
       <section class="feature-section">
@@ -516,8 +549,8 @@
                       </div>
                     </div>
                     <h3>Profesionalismo</h3>
-                    <p>
-                      27 años brindando el mejor servicio de seguridad de Chile.
+                    <p class="p2">
+                      17 años brindando el mejor servicio de seguridad de Chile.
                     </p>
                   </div>
                 </div>
@@ -531,7 +564,7 @@
                       </div>
                     </div>
                     <h3>Confianza</h3>
-                    <p>
+                    <p class="p2">
                       Nuestra amplia cartera de clientes habla por nosotros
                       mismos.
                     </p>
@@ -590,13 +623,13 @@
                       necesario para mitigar los riesgos y proteger sus activos.
                     </p>
                   </div>
-                  <div class="list-inner mb_45">
-                    <div
+                  <div class="mb_45">
+                    <!-- <div
                       class="shape"
                       style="
                         background-image: url(assets/images/shape/shape-6.png);
                       "
-                    ></div>
+                    ></div> -->
                     <div class="row clearfix">
                       <div class="col-lg-6 col-md-6 col-sm-12 list-column">
                         <ul class="list-style-one clearfix">
@@ -608,7 +641,7 @@
                       <div class="col-lg-6 col-md-6 col-sm-12 list-column">
                         <ul class="list-style-one clearfix">
                           <li>Reacción inmediata</li>
-                          <li>Más de 27 años de experiencia</li>
+                          <li>Más de 17 años de experiencia</li>
                         </ul>
                       </div>
                     </div>
@@ -633,8 +666,8 @@
       >
         <div class="auto-container">
           <div class="sec-title mb_60">
-            <span class="sub-title">Nuestos servicios</span>
-            <h2>
+            <span class="sub-title">Nuestros servicios</span>
+            <h2 class="h2">
               Seguridad especializada <br />
               y mantenimiento
             </h2>
@@ -685,7 +718,7 @@
                   <div class="image-box">
                     <figure class="image">
                       <img
-                        src="assets/images/service/service-2.jpg"
+                        src="assets/images/service/service-2.png"
                         alt="Guardias de seguridad"
                       />
                     </figure>
@@ -800,11 +833,11 @@
       <!-- chooseus-section -->
       <section class="chooseus-section pt_150 pb_150">
         <div class="pattern-layer">
-          <div class="pattern-1"></div>
-          <div
+          <!-- <div class="pattern-1"></div> -->
+          <!-- <div
             class="pattern-2 rotate-me"
             style="background-image: url(assets/images/shape/shape-5.png)"
-          ></div>
+          ></div> -->
           <!-- <div
             class="pattern-3"
             style="background-image: url(assets/images/shape/shape-8.png)"
@@ -821,7 +854,7 @@
                   </div>
                   <div class="text-box">
                     <p>
-                      Somos una empresa que, desde hace más de 27 años, cuenta
+                      Somos una empresa que, desde hace más de 17 años, cuenta
                       con un equipo de expertos en seguridad, que trabaja con la
                       mejor tecnología y se basa en protocolos internacionales
                       para ejecución de nuestros servicios.
@@ -836,9 +869,9 @@
             <div class="col-lg-6 col-md-12 col-sm-12 inner-column">
               <div class="inner-content ml_50">
                 <div class="shape">
-                  <div class="shape-1"></div>
+                  <!-- <div class="shape-1"></div>
                   <div class="shape-2"></div>
-                  <div class="shape-3 rotate-me"></div>
+                  <div class="shape-3 rotate-me"></div> -->
                 </div>
                 <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6 col-sm-12 chooseus-block">
@@ -967,7 +1000,7 @@
           >
             <div class="clients-logo">
               <img
-                src="assets/images/clients/clients-1.png"
+                src="assets/images/clients/wyndham.png"
                 height="50px"
                 width="auto"
                 alt="Cliente"
@@ -975,7 +1008,7 @@
             </div>
             <div class="clients-logo">
               <img
-                src="assets/images/clients/clients-2.png"
+                src="assets/images/clients/accor.png"
                 height="50px"
                 width="auto"
                 alt="Cliente"
@@ -983,7 +1016,7 @@
             </div>
             <div class="clients-logo">
               <img
-                src="assets/images/clients/clients-3.png"
+                src="assets/images/clients/crowne_plaza.png"
                 height="50px"
                 width="auto"
                 alt="Cliente"
@@ -991,7 +1024,7 @@
             </div>
             <div class="clients-logo">
               <img
-                src="assets/images/clients/clients-4.png"
+                src="assets/images/clients/ibis.png"
                 height="50px"
                 width="auto"
                 alt="Cliente"
@@ -999,7 +1032,175 @@
             </div>
             <div class="clients-logo">
               <img
-                src="assets/images/clients/clients-5.png"
+                src="assets/images/clients/aza.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/city-express.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/ibis-budget.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/aceros-cox.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/ministerio-espana.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/pompeyo.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/hotel-plaza.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/vera-giannini.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/hotel-cumbres.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/novotel.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/cypco.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/bonaparte.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/park-plaza.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/sack.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/trane.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/proa.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/avicola-andina.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/ferrostaal.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/estampa.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/lo-valledor.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/kolff.png"
+                height="50px"
+                width="auto"
+                alt="Cliente"
+              />
+            </div>
+            <div class="clients-logo">
+              <img
+                src="assets/images/clients/desco.png"
                 height="50px"
                 width="auto"
                 alt="Cliente"
@@ -1451,26 +1652,28 @@
       <!-- news-section end -->
 
       <!-- cta-section -->
-      <section class="cta-section pt_90 pb_100">
-        <figure class="image-layer">
-          <img
-            src="assets/images/resource/men-1.png"
-            alt="Guardia de seguridad"
-          />
-        </figure>
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div
-              class="col-xl-6 col-lg-12 col-md-12 offset-xl-6 content-column"
-            >
-              <div class="content-box">
-                <h2>Solicita a los expertos en seguridad.</h2>
-                <a href="contact.html" class="theme-btn btn-one">Contáctanos</a>
-              </div>
+      <section class="cta-section cta-bg-color">
+        <div class="cta-wrapper">
+          <div
+            class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 justify-content-center d-flex align-items-bottom"
+          >
+            <img
+              src="assets/images/resource/men-1.png"
+              alt="Guardia de seguridad"
+              style="width: 700px"
+            />
+          </div>
+          <div
+            class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex align-items-center"
+          >
+            <div class="content-box px-5">
+              <h2 class="h2">Solicita a los expertos en seguridad.</h2>
+              <a href="contact.html" class="theme-btn btn-one">Contáctanos</a>
             </div>
           </div>
         </div>
       </section>
+
       <!-- cta-section end -->
 
       <!-- main-footer -->
@@ -1495,7 +1698,7 @@
                   </figure>
                   <div class="text-box">
                     <p>
-                      Más de 27 años resguardando la seguridad de nuestros
+                      Más de 17 años resguardando la seguridad de nuestros
                       clientes.
                     </p>
                   </div>

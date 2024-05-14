@@ -2,7 +2,7 @@
 
 .cta-section {
   position: relative;
-  /* margin-top: 50px; */
+  margin-top: -100px;
 }
 
 .cta-section .content-box {
@@ -21,7 +21,9 @@
 }
 
 .cta-section .content-box .theme-btn {
-  background: #101a30;
+  background-color: white;
+  border-radius: 5px;
+  border: #101a30 1px solid;
 }
 
 .cta-section .content-box .theme-btn:hover {
@@ -29,7 +31,7 @@
 }
 
 .cta-section .content-box .theme-btn:before {
-  background: #fff;
+  background: #00fff0;
 }
 
 .cta-section .image-layer {
@@ -61,7 +63,7 @@
   }
 
   .cta-section {
-    padding: 60px 0px 70px 0px;
+    padding: 60px 0px 00px 0px;
   }
 }
 

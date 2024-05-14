@@ -64,12 +64,14 @@
  ***/
 
 :root {
-  --theme-color: linear-gradient(90deg, #2a66a8 1.12%, #55abb1 100%);
-  --secondary-color: #2a66a8;
+  --theme-color: linear-gradient(90deg, #6b6b6b 1.12%, #9c9c9c 100%);
+  --secondary-color: #00fff0;
   --text-color: #6e6e6e;
+  --text-color2: #e8e8e8;
   --title-color: #222222;
+
   --text-font: "Poppins", sans-serif;
-  --title-font: "Poppins", sans-serif;
+  --title-font: "Archivo Black", sans-serif;
 }
 
 body {
@@ -77,7 +79,7 @@ body {
   color: var(--text-color);
   line-height: 28px;
   font-weight: 400;
-  background: #ffffff;
+  background: #000000;
   font-family: var(--text-font);
   background-size: cover;
   background-repeat: no-repeat;
@@ -180,13 +182,39 @@ textarea:focus {
 p {
   position: relative;
   font-family: var(--text-font);
+  color: var(--text-color2);
+  font-weight: 400;
+  margin: 0px;
+  transition: all 500ms ease;
+}
+
+.p2 {
+  position: relative;
+  font-family: var(--text-font);
   color: var(--text-color);
   font-weight: 400;
   margin: 0px;
   transition: all 500ms ease;
 }
 
-h1,
+h1 {
+  position: relative;
+  line-height: 75px;
+  transition: all 500ms ease;
+  font-family: var(--text-font);
+  color: var(--secondary-color);
+  font-size: 55px;
+}
+
+sub-title-banner {
+  position: relative;
+  line-height: 75px;
+  transition: all 500ms ease;
+  font-family: "Archivo Black", sans-serif;
+  color: white !important;
+  font-size: 30px;
+}
+
 h2,
 h3,
 h4,
@@ -197,6 +225,14 @@ h6 {
   color: var(--title-color);
   margin: 0px;
   transition: all 500ms ease;
+}
+
+h2 {
+  color: white !important;
+}
+
+.h2 {
+  color: black !important;
 }
 
 /* Preloader */
@@ -214,7 +250,7 @@ h6 {
   top: 0;
   width: 100%;
   z-index: 9999999;
-  background: var(--theme-color);
+  background: black;
 }
 
 .preloader-close {
@@ -242,9 +278,9 @@ h6 {
 .handle-preloader .animation-preloader .spinner {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
-  height: 150px;
+  height: 50px;
   margin: 0 auto 45px auto;
-  width: 150px;
+  width: 50px;
 }
 
 .handle-preloader .animation-preloader .txt-loading {
@@ -253,7 +289,7 @@ h6 {
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before {
-  animation: letters-loading 4s infinite;
+  animation: letters-loading 2s infinite;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
@@ -271,8 +307,8 @@ h6 {
   line-height: 60px;
   text-transform: uppercase;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(255, 255, 255, 0.3);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #00fff0;
 }
 
 .handle-preloader
@@ -405,6 +441,12 @@ h6 {
   font-family: "Fredoka", sans-serif;
 }
 
+.cta-wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+}
+
 figure {
   margin: 0px;
 }
@@ -417,6 +459,37 @@ img {
   transition-timing-function: ease-in-out;
   transition-duration: 0.7s;
   transition-property: all;
+  border-radius: 5px;
+}
+
+.banner-full {
+  width: 100%;
+  /* background-color: #42ff00; */
+  background-image: url(../images/banner/delincuencia-chile.jpg);
+  height: 800px;
+  max-height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.banner-full div {
+  justify-content: center;
+}
+
+.banner-full div img {
+  height: 100%;
+  width: auto;
+}
+
+.banner-full div h1 {
+  margin-left: 10%;
+  margin-right: 5%;
+  text-align: start;
+  font-family: var(--title-font);
 }
 
 .row {
@@ -433,16 +506,17 @@ img {
   font-size: 17px;
   line-height: 28px;
   font-weight: 600;
-  font-family: var(--title-font);
-  color: #fff !important;
+  font-family: var(--text-font);
+  color: #000 !important;
   text-align: center;
   padding: 16px 27px;
   z-index: 1;
   transition: all 500ms ease;
+  border-radius: 5px;
 }
 
 .theme-btn.btn-one {
-  background: var(--theme-color);
+  background: white;
 }
 
 .theme-btn:before {
@@ -453,7 +527,7 @@ img {
   left: 0px;
   top: 0px;
   z-index: -1;
-  background: linear-gradient(90deg, #55abb1 1.12%, #2a66a8 100%);
+  background: linear-gradient(90deg, #00fff0 1.12%, #00fff0 100%);
   transition: all 500ms ease;
 }
 
@@ -481,14 +555,15 @@ img {
   color: #222 !important;
   padding: 11px 27px;
   background: #fff;
+  border: #000 solid 1px;
 }
 
 .theme-btn.btn-two:hover {
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 .theme-btn.btn-two:before {
-  background: linear-gradient(90deg, #2a66a8 1.12%, #55abb1 100%);
+  background: var(--secondary-color);
 }
 
 .parallax-bg {
@@ -627,7 +702,7 @@ img {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #f4244f;
+  background-color: #00ffff;
   opacity: 0.3;
 }
 
@@ -738,7 +813,7 @@ img {
   top: 0px;
   width: 100%;
   z-index: 0;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -912,7 +987,7 @@ img {
 .main-header .outer-box {
   position: relative;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   padding: 0px 70px;
 }
@@ -935,10 +1010,20 @@ img {
   padding: 30px 0px;
 }
 
+.main-header .logo-box2 {
+  position: relative;
+  max-width: 210px;
+  margin-right: 140px;
+  padding: 30px 0px;
+}
+
 .main-header .outer-box .menu-area {
   position: relative;
   display: flex;
   align-items: center;
+  width: 100%;
+
+  justify-content: space-between;
 }
 
 .main-header .menu-right-content {
@@ -1029,7 +1114,7 @@ img {
   padding: 37px 0px;
   letter-spacing: 0.05em;
   opacity: 1;
-  color: #101a30;
+  color: #ffffff;
   font-weight: 500;
   text-transform: capitalize;
   z-index: 1;
@@ -1064,6 +1149,7 @@ img {
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
+  border-radius: 5px;
 }
 
 .main-menu .navigation > li > ul.from-right {
@@ -1085,7 +1171,7 @@ img {
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
   text-align: left;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -1251,6 +1337,7 @@ img {
   cursor: pointer;
   background: var(--secondary-color);
   display: none;
+  border-radius: 5px;
 }
 
 .mobile-menu .nav-logo img {
@@ -1263,7 +1350,7 @@ img {
   width: 30px;
   display: block;
   margin-bottom: 5px;
-  background-color: #fff;
+  background-color: #000;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -1510,7 +1597,7 @@ img {
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn.open {
-  color: #c31717;
+  color: var(--secondary-color);
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -1586,6 +1673,7 @@ div#mCSB_1_container {
 
 .main-header .outer-box {
   position: relative;
+  background-color: #000;
 }
 
 .owl-dots-none .owl-dots,
@@ -1816,7 +1904,7 @@ button.ltr {
   display: block;
   font-size: 16px;
   line-height: 26px;
-  color: #101a30;
+  color: #ffffff;
   font-weight: 500;
   padding-left: 27px;
   margin-bottom: 11px;

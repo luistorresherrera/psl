@@ -11,7 +11,7 @@
 }
 
 .content_block_two .content-box p {
-  color: #101a30;
+  color: #ffffff;
   margin-bottom: 31px;
 }
 
@@ -23,6 +23,7 @@
   padding: 60px 30px 57px 30px;
   text-align: center;
   transition: all 500ms ease;
+  border-radius: 5px;
 }
 
 .chooseus-block-one .inner-box:hover {
@@ -36,11 +37,7 @@
   height: 70px;
   line-height: 70px;
   text-align: center;
-  background: linear-gradient(
-    43.26deg,
-    rgba(197, 232, 152, 0.5),
-    rgba(197, 232, 152, 0.5)
-  );
+  background: #00fff0;
   border-radius: 50%;
   margin-bottom: 23px;
 }
@@ -65,11 +62,7 @@
   margin-left: -135px;
   width: 270px;
   height: 270px;
-  background: linear-gradient(
-    43.26deg,
-    rgba(197, 232, 152, 0.5) 5.59%,
-    rgba(197, 232, 152, 0.5) 90.07%
-  );
+  background-color: #00fff0;
   border-radius: 50%;
   -webkit-animation: zoom-fade 7s infinite linear;
   animation: zoom-fade 7s infinite linear;
@@ -82,7 +75,7 @@
   width: 700px;
   height: 700px;
   border-radius: 50%;
-  border: 5px dashed rgba(0, 0, 0, 0.15);
+  border: #00fff0;
 }
 
 .chooseus-section .inner-content .shape .shape-3 {
@@ -92,7 +85,7 @@
   width: 484px;
   height: 484px;
   border-radius: 50%;
-  border: 8px dashed rgba(0, 0, 0, 0.15);
+  border: 8px dashed #00fff0;
 }
 
 .chooseus-section .pattern-layer .pattern-1 {
@@ -102,7 +95,7 @@
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  border: 70px solid #f7f7f7;
+  border: 70px solid #ffffff;
   -webkit-animation: zoom-fade 7s infinite linear;
   animation: zoom-fade 7s infinite linear;
 }

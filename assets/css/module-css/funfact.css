@@ -18,6 +18,8 @@
   background: #fff;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   padding: 50px 60px 50px 170px;
+  border-radius: 5px;
+  margin: -5px;
 }
 
 .funfact-block-one .inner-box .icon-box {
@@ -29,11 +31,7 @@
   height: 90px;
   line-height: 90px;
   font-size: 50px;
-  background: linear-gradient(
-    43.26deg,
-    rgba(197, 232, 152, 0.5) 5.59%,
-    rgba(197, 232, 152, 0.5) 90.07%
-  );
+  background-color: #00fff0;
   text-align: center;
   border-radius: 50%;
 }
