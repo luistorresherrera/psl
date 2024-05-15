@@ -481,8 +481,9 @@ img {
 }
 
 .banner-full div img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
 }
 
 .banner-full div h1 {
