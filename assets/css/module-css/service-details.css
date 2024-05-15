@@ -27,14 +27,14 @@
   font-family: var(--title-font);
   color: var(--title-color);
   font-weight: 700;
-  background: #f1f1f1;
+  background: white;
   padding: 21px 30px;
   z-index: 1;
 }
 
 .service-sidebar .category-widget .category-list li a.current,
 .service-sidebar .category-widget .category-list li a:hover {
-  color: #fff;
+  color: #000000;
 }
 
 .service-sidebar .category-widget .category-list li a:before {
@@ -97,7 +97,7 @@
 .service-sidebar .support-widget .phone-box {
   position: relative;
   display: block;
-  background: #101a30;
+  background: var(--secondary-color);
   padding: 24px 30px 25px 75px;
   min-width: 330px;
 }
@@ -119,8 +119,8 @@
   display: inline-block;
   font-size: 24px;
   line-height: 30px;
-  font-family: var(--title-font);
-  color: #fff;
+  font-family: var(--text-font);
+  color: #000000;
   font-weight: 600;
 }
 

@@ -158,7 +158,7 @@
 }
 
 .service-sidebar .category-widget .category-list li a:before {
-  background: var(--theme-color);
+  background: var(--secondary-color);
 }
 
 .service-sidebar .support-widget {
