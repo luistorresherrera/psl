@@ -65,10 +65,10 @@
 
 :root {
   --theme-color: linear-gradient(90deg, #6b6b6b 1.12%, #9c9c9c 100%);
-  --secondary-color: #00fff0;
-  --text-color: #6e6e6e;
+  --secondary-color: #43b0d8;
+  --text-color: #1c1c1c;
   --text-color2: #e8e8e8;
-  --title-color: #222222;
+  --title-color: #1c1c1c;
 
   --text-font: "Poppins", sans-serif;
   --title-font: "Archivo Black", sans-serif;
@@ -79,7 +79,7 @@ body {
   color: var(--text-color);
   line-height: 28px;
   font-weight: 400;
-  background: #000000;
+  background: #1c1c1c;
   font-family: var(--text-font);
   background-size: cover;
   background-repeat: no-repeat;
@@ -465,7 +465,10 @@ img {
 .banner-full {
   width: 100%;
   /* background-color: #42ff00; */
-  background-image: url(../images/banner/delincuencia-chile.jpg);
+  background-image: url(../images/banner/seguridad-chile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 800px;
   max-height: auto;
   display: flex;
@@ -478,6 +481,13 @@ img {
 
 .banner-full div {
   justify-content: center;
+}
+
+.subtitle-h1 {
+  margin-left: 10%;
+  margin-right: 5%;
+  font-size: 18px;
+  text-align: start;
 }
 
 .banner-full div img {
@@ -520,6 +530,10 @@ img {
   background: white;
 }
 
+.theme-btn.btn-one:hover {
+  color: white !important;
+}
+
 .theme-btn:before {
   position: absolute;
   content: "";
@@ -528,8 +542,9 @@ img {
   left: 0px;
   top: 0px;
   z-index: -1;
-  background: linear-gradient(90deg, #00fff0 1.12%, #00fff0 100%);
+  background: linear-gradient(90deg, #2a6cd7 1.12%, #2a6cd7 100%);
   transition: all 500ms ease;
+  color: white;
 }
 
 .theme-btn:hover:before {
@@ -555,8 +570,8 @@ img {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
   color: #222 !important;
   padding: 11px 27px;
-  background: #fff;
-  border: #000 solid 1px;
+  background: #c1c1c1;
+  /* border: #000 solid 1px; */
 }
 
 .theme-btn.btn-two:hover {
@@ -860,13 +875,15 @@ img {
 .header-top {
   position: relative;
   width: 100%;
-  background: #1c1c1c;
+  background: #2a6cd7;
   padding: 10px 0px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .header-top .outer-container {
   position: relative;
-  padding: 0px 70px;
+  padding: 0px 0px;
 }
 
 .header-top .top-inner {
@@ -928,6 +945,8 @@ img {
 .header-top .top-right .login-box {
   position: relative;
   margin-right: 62px;
+  padding: 8px;
+  background-color: #00fff0;
 }
 
 .header-top .top-right .login-box:before {
@@ -1674,7 +1693,7 @@ div#mCSB_1_container {
 
 .main-header .outer-box {
   position: relative;
-  background-color: #000;
+  background-color: #1c1c1c;
 }
 
 .owl-dots-none .owl-dots,

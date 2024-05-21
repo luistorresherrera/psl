@@ -27,11 +27,11 @@
 }
 
 .cta-section .content-box .theme-btn:hover {
-  color: #101a30 !important;
+  color: white !important;
 }
 
 .cta-section .content-box .theme-btn:before {
-  background: #00fff0;
+  background: #2a6cd7;
 }
 
 .cta-section .image-layer {

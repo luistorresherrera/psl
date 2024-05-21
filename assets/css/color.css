@@ -9,7 +9,7 @@
 }
 
 .feature-block-one .inner-box .icon-box:before {
-  background-color: black;
+  background-color: var(--secondary-color);
 }
 
 .service-block-one .inner-box .lower-content h3 a:hover {

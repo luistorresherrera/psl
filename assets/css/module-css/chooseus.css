@@ -37,7 +37,7 @@
   height: 70px;
   line-height: 70px;
   text-align: center;
-  background: #00fff0;
+  background: var(--secondary-color);
   border-radius: 50%;
   margin-bottom: 23px;
 }
@@ -62,7 +62,7 @@
   margin-left: -135px;
   width: 270px;
   height: 270px;
-  background-color: #00fff0;
+  background-color: var(--secondary-color);
   border-radius: 50%;
   -webkit-animation: zoom-fade 7s infinite linear;
   animation: zoom-fade 7s infinite linear;
@@ -75,7 +75,7 @@
   width: 700px;
   height: 700px;
   border-radius: 50%;
-  border: #00fff0;
+  border: var(--secondary-color);
 }
 
 .chooseus-section .inner-content .shape .shape-3 {
@@ -85,7 +85,7 @@
   width: 484px;
   height: 484px;
   border-radius: 50%;
-  border: 8px dashed #00fff0;
+  border: 8px dashed var(--secondary-color);
 }
 
 .chooseus-section .pattern-layer .pattern-1 {
